@@ -5,7 +5,7 @@ let weather =
 let celsius = parseInt(prompt("¿A cuantos grados está tu ciudad?", 20))
 let fahrenheit = (celsius * 9 / 5 + 32)
 
-switch (weather) {
+switch (weather.toLowerCase()) {
     case "a":
         window.alert(`En tu ciudad, el día está soleado con una temperatura de ${fahrenheit}F°`)
         break
